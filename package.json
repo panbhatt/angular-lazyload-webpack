@@ -5,14 +5,15 @@
   "scripts": {
     "start": "hs build",
     "build": "webpack -p",
-    "devs": "webpack-dev-server --content-base build --hot --inline --devtool eval",
+    "devs": "webpack-dev-server --content-base build --hot --inline --devtool --display-error-details eval",
     "test": "karma start test/karma.config.js"
   },
-  "author": "Michal Zalecki <michal@michalzalecki.com>",
+  "author": "Pankaj Bhatt <panbhatt@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "angular": "^1.4.1",
     "http-server": "^0.8.0",
+    "ng-annotate": "^1.2.1",
     "raw-loader": "^0.5.1"
   },
   "devDependencies": {

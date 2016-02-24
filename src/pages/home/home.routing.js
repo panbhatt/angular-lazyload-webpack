@@ -1,7 +1,7 @@
 'use strict';
 
 function homeRouting($urlRouterProvider, $stateProvider) {
-  $urlRouterProvider.otherwise('/home');
+  $urlRouterProvider.otherwise('/home/about');
 
   $stateProvider
     .state('home', {

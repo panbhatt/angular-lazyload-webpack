@@ -10,7 +10,7 @@ class MsgStoreService {
     this._messages.push({ text: text, date: new Date });
   }
   all() {
-    return this._messages
+    return this._messages;
   }
 }
 
